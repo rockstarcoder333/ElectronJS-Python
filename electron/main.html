@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta charset="utf-8" />
+        <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline' 'unsafe-eval';">
+
+        <title>Bean Counting Application</title>
+
+        <link rel="stylesheet" href="../bootstrap.min.css">
+        <link rel="stylesheet" href="gui_example.css">
+        <script scr="../bootstrap.min.js"></script>
+        <script src="gui_example.js"></script>
+    </head>
+    <body style="background-color: rgb(100, 219, 226);">
+        <div class="container" id="main_container">
+            <div class="row" id="h_row"> 
+                <div class="col-sm-4">
+                    <h1 id="h_count">COUNT:</h1>
+                </div>
+                <div class="col-sm-4">
+                    <h1 id="h_count_result">0</h1>
+                </div>
+                <div class="col-sm-4">
+                </div>
+            </div>
+            <div class="row" id="btn_row">
+                <div class="col-sm-4">
+                </div>
+                <div class="col-sm-4">
+                    <input id="btn_start" type="submit" class="button" value="Start">
+                    <br>
+                    <input id="btn_reset" type="submit" class="button" value="Reset" disabled>
+                </div>
+                <div class="col-sm-4">
+                    <!-- <input id="btn_setting" type="submit" class="button" value=""> -->
+                    <!-- <a id="btn_setting" href="setting.html"></a> -->
+                    <input id="btn_setting" type="submit" class="button" value="">
+                </div>
+            </div>
+        </div>
+        <div class="container" id="setting_container">
+            <div class="row" id="setting_row"> 
+                <div class="col-sm-3">
+                    <!-- <a id="btn_backarrow" href="main.html"></a> -->
+                    <input id="btn_backarrow" type="submit" class="button" value="">
+                </div>
+                <div class="row col-sm-6">
+                    <input id="btn_calibration" type="submit" class="button" value="Calibration">
+                    <div class="row" id="input1_row">
+                        <div class="col-sm-6">
+                            <h1 id="h_speed">Speed:</h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <input id="v_speed" type="number" required="" value="100" />
+                        </div>
+                    </div>
+                    <div class="row" id="input2_row">
+                        <div class="col-sm-6">
+                            <h1 id="h_size">Size:</h1>
+                        </div>
+                        <div class="col-sm-6">
+                            <input id="v_size" type="number" required="" value="21" />
+                        </div>
+                    </div>                           
+                </div>
+                <div class="col-sm-3">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

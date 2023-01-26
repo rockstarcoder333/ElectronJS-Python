@@ -1,0 +1,148 @@
+#setting_container {
+    display: none;
+}
+
+#h_row {
+    margin-top: 15%;
+}
+
+#h_count {
+    padding: 7%;
+    margin-top: 9%;
+    font-size: 42px;
+}
+
+#h_count_result {
+    color: rgb(24, 136, 2);
+    font-size: 72px;
+        text-align: center;
+}
+
+#btn_row {
+    margin-top: 15%;
+}
+
+#btn_start {
+  background-color: rgb(26, 22, 45); 
+  border-radius: 20px;
+  border:  0px;
+  color: white;
+  width: 100%;
+  height: 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  box-shadow: 5px 5px 20px black;
+  cursor: pointer;
+  outline: none;
+}
+
+#btn_reset {
+  background-color: rgb(122, 136, 142);
+  border-radius: 20px;
+  border:  0px;
+  color: white;
+  width: 100%;
+  height: 54px;
+  margin-top: 10%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  box-shadow: 5px 5px 20px black;
+  outline: none;
+}
+
+#btn_setting {
+  background-color: rgb(31, 171, 241);
+  border-radius: 20px;
+  border:  0px;
+  color: white;
+  width: 74px;
+  height: 74px;
+  margin-left: 74%;
+  margin-top: 68%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  box-shadow: 5px 5px 20px black;
+  background-image: url(../img/setting_btn.png);
+  cursor: pointer;
+  outline: none;
+}
+
+/*Setting.HTML*/
+#btn_backarrow {
+  background-color: rgb(31, 171, 241);
+  border-radius: 20px;
+  border:  0px;
+  color: white;
+  width: 61px;
+  height: 39px;
+  margin-left: -32px;
+  margin-top: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  box-shadow: 5px 5px 20px black;
+  background-image: url(../img/backarrow_btn.png);
+  cursor: pointer;
+  outline: none;
+}
+
+#btn_calibration {
+  background-color: rgb(26, 22, 45); 
+  border-radius: 20px;
+  border:  0px;
+  color: white;
+  margin-top: 30%;
+  width: 300px;
+  height: 54px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  box-shadow: 5px 5px 20px black;
+  cursor: pointer;
+  outline: none;
+}
+
+#input1_row{
+    margin-top: 30%;
+}
+
+#input2_row{
+    margin-top: 10%;
+}
+
+#h_speed {
+    padding: 7%;
+    margin-top: 9%;
+    font-size: 33px;
+}
+
+#h_size {
+    padding: 7%;
+    margin-top: 9%;
+    font-size: 33px;
+}
+
+#v_speed {
+    padding: 3%;
+    margin-left: 16%;
+    margin-top: 22%;
+    text-align: end;
+    width: 100%;
+}
+
+#v_size {
+    padding: 3%;
+    margin-left: 16%;
+    margin-top: 22%;
+    text-align: end;
+    width: 100%;
+}
+
